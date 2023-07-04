@@ -16,6 +16,7 @@ const manifest = defineManifest({
         default_icon: "icons/icon128.png",
         default_title: "Fast Key Scroller",
     },
+    permissions: ["activeTab"],
     content_scripts: [
         {
             matches: ["<all_urls>"],
