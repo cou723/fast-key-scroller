@@ -17,6 +17,7 @@ jobs:
     #     with:
     #       node-version: 16
     #       cache: npm
+      - run:  /home/runner/work/fast-key-scroller
       - run: pnpm i
     #   - run: npm run lint
     #   - run: npm run test
