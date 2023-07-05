@@ -19,7 +19,7 @@ jobs:
     #       cache: npm
       - run: cd /home/runner/work/fast-key-scroller
       - run: pwd
-      - run: ls
+      - run: ls ../
       - run: pnpm i
     #   - run: npm run lint
     #   - run: npm run test
