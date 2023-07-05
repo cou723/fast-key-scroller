@@ -23,7 +23,7 @@ jobs:
       - run: pnpm i
     #   - run: npm run lint
     #   - run: npm run test
-      - uses: fregante/daily-version-action@2
+      - uses: fregante/daily-version-action@v2
         # TODO: 最新版ではタグがないときのエラー処理がまた抜けてるので一旦コミットで指定
         name: Create tag if necessary
         id: daily-version
