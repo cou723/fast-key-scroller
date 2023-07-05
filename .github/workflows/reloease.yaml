@@ -17,7 +17,7 @@ jobs:
     #     with:
     #       node-version: 16
     #       cache: npm
-      - run: pnpm ci
+      - run: pnpm i
     #   - run: npm run lint
     #   - run: npm run test
       - uses: fregante/daily-version-action@a1fc2b591c0bee1c12274b8dffaddea11c079082
