@@ -1,5 +1,6 @@
 'use strict';
 let intervalId: number | null;
+// test comment out
 document.addEventListener("keydown", function (event) {
     if (intervalId) return;
     if (!!document.activeElement && (document.activeElement.tagName === "TEXTAREA" || document.activeElement.tagName === "INPUT")) return;
