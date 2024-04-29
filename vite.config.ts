@@ -5,7 +5,7 @@ const manifest = defineManifest({
     manifest_version: 3,
     description: "This extension makes scrolling with the arrow keys smoother and faster",
     name: "Fast Key Scroller",
-    version: "1.0.0",
+    version: "1.0.1",
     icons: {
         16: "icons/icon16.png",
         24: "icons/icon24.png",
